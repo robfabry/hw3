@@ -17,7 +17,8 @@ function pageLoad() {
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
-  // let levelOfService = {'Noober X', 'Noober Purple', 'Noober XL'} <-- not needed per prof's slack note (assume its already defined) 
+  // let levelOfService = {'Noober X', 'Noober Purple', 'Noober XL'} <-- not needed per prof's slack note (assume its already defined)
+  //setting for ride[0] defines ride for all users
 
   if (ride.length > 1 || ride[0].numberOfPassengers == 1) {
     levelOfService = 'Noober Pool'
